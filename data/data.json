@@ -1,0 +1,106 @@
+{
+    "data":{
+        "soal": [
+            {
+                "soal": "Pusat Keuangan Amerika Serikat berada di ….",
+                "jawaban": ["New York", "salah", "benar"],
+                "jawaban_benar": "New York"
+            },
+            {
+                "soal": "Berikut ini adalah negara yang dilalui olehPegunungan Alpen, kecuali ......",
+                "jawaban": ["dada", "baba", "fafa"],
+                "jawaban_benar": "dada"
+            },
+            {
+                "soal": "Benua biru adalah sebutan bagi benua ......",
+                "jawaban": ["Australia", "baba", "fafa" ],
+                "jawaban_benar":"Australia"
+            },
+            {
+                "soal": "jakarta adalah ibukota ?",
+                "jawaban": ["indonesia", "baba", "fafa" ],
+                "jawaban_benar":"indonesia"
+            },
+            {
+                "soal": "indonesia termasuk ke benua?",
+                "jawaban": ["Asia", "baba", "fafa" ],
+                "jawaban_benar":"Asia"
+            },
+            {
+                "soal": "bandung berada di pulau?",
+                "jawaban": ["jawa", "baba", "fafa" ],
+                "jawaban_benar":"jawa"
+            },
+            {
+                "soal": "tarian yang berasal dari jakarta?",
+                "jawaban": ["topeng monyet", "baba", "fafa" ],
+                "jawaban_benar":"topeng monyet"
+            },
+            {
+                "soal": "presiden indonesia adalah?",
+                "jawaban": ["jokowi", "baba", "fafa" ],
+                "jawaban_benar":"jokowi"
+            },
+            {
+                "soal": "telinga terbesar di alam semesta?",
+                "jawaban": ["bayu aditya", "baba", "fafa" ],
+                "jawaban_benar":"bayu aditya"
+            },{
+                "soal": "nama yang bagus?",
+                "jawaban": ["kill", "baba", "fafa" ],
+                "jawaban_benar":"kill"
+            },
+            {
+                "soal": "kemana kamu pergi",
+                "jawaban": ["garut", "baba", "fafa" ],
+                "jawaban_benar":"garut"
+            },
+            {
+                "soal": "monyet berasal dari",
+                "jawaban": ["langit", "baba", "fafa" ],
+                "jawaban_benar":"langit"
+            },
+            {
+                "soal": "katagoti barang",
+                "jawaban": ["Ab", "baba", "fafa" ],
+                "jawaban_benar":"Ab"
+            },
+            {
+                "soal": "1+1?",
+                "jawaban": ["4", "baba", "fafa" ],
+                "jawaban_benar":"4"
+            },
+            {
+                "soal": "makan pisang",
+                "jawaban": ["enak", "baba", "fafa" ],
+                "jawaban_benar":"enak"
+            },
+            {
+                "soal": "anak manja=",
+                "jawaban": ["anjing", "baba", "fafa" ],
+                "jawaban_benar":"anjing"
+            },
+            {
+                "soal": "Benua kuning adalah sebutan bagi benua ......",
+                "jawaban": ["tai", "baba", "fafa" ],
+                "jawaban_benar":"tai"
+            },
+            {
+                "soal": "rokok=",
+                "jawaban": ["mati", "baba", "fafa" ],
+                "jawaban_benar":"mati"
+            },
+            {
+                "soal": "Benua biru adalah sebutan bagi benua ......",
+                "jawaban": ["Australia", "baba", "fafa" ],
+                "jawaban_benar":"Australia"
+            }
+        ],
+        "materi":{
+                "judul": "Anggota Sistem Tata Surya",
+                "gambar": "../image/matahari.jpg",
+                "isi_materi": "Sistem tata surya memliki banyak benda-benda langit yang mengelilingi tata surya, bagian-bagian dari langit itu berjalan sesuai dengan strukturnya yang secara teratur yang saling melengkapi satu sama lain agar tidak menimbulkan kerusakan pada anggota-anggota planet lainnya.Berikut adalah gambar susunan tata surya :"
+        }
+        
+    }
+}
