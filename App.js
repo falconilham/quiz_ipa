@@ -20,8 +20,11 @@ export default class App extends Component{
       jawaban: "",
       materi: "",
       condition : 1,
-      soal: Data.data
+      materi: Data.data.materi
     }
+  }
+
+  componentDidMount = () =>{
   }
 
   cekUser = () => {
@@ -162,8 +165,13 @@ export default class App extends Component{
         )
       }else if(this.state.condition === 3){
         return(
-          <View>
-            <Text>{this.state.soal.data && this.state.soal.data.materi}</Text>
+          <View style={{alignItems: "center"}}>
+            <Text>{this.state.materi.judul}</Text>
+            <View style={{marginVertical: 20}}>
+              <Image style={{width: 300, height: 300}} source={require('./image/matahari.jpg')} />
+            </View>
+            <Text>    {this.state.materi.isi_materi}</Text>
+            <Button title="Back To Home" style={{marginTop: 20}} onPress={() => this.setState({condition: 2})} />
           </View>
         )
       }else{

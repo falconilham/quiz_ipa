@@ -98,7 +98,7 @@
         ],
         "materi":{
                 "judul": "Anggota Sistem Tata Surya",
-                "gambar": "../image/matahari.jpg",
+                "gambar": "./image/matahari.jpg",
                 "isi_materi": "Sistem tata surya memliki banyak benda-benda langit yang mengelilingi tata surya, bagian-bagian dari langit itu berjalan sesuai dengan strukturnya yang secara teratur yang saling melengkapi satu sama lain agar tidak menimbulkan kerusakan pada anggota-anggota planet lainnya.Berikut adalah gambar susunan tata surya :"
         }
         
