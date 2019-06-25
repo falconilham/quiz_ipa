@@ -7,8 +7,8 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, Button, TextInput, Linking, Image, TouchableOpacity} from 'react-native';
-import Data from './data/data.json';
+import {StyleSheet, Text, View, Button, TextInput, Linking, Image, TouchableOpacity, ImageBackground} from 'react-native';
+import Soal from './Soal.json'
 
 export default class App extends Component{
   constructor(){
@@ -16,17 +16,19 @@ export default class App extends Component{
     this.state = {
       name : "",
       password : "",
-      soal: [],
+      soal: Soal.slice(),
       jawaban: "",
+      current: Math.floor(Math.random()* 51),
       materi: "",
+      nomor_soal: 0,
       condition : 1,
-      materi: Data.data.materi
+      nilai: 0,
+      total_soal_dikerjakan: 0
     }
   }
 
   componentDidMount = () =>{
   }
-
   cekUser = () => {
     if(this.state.name === "admin" && this.state.password === "admin"){
       this.setState({
@@ -36,10 +38,35 @@ export default class App extends Component{
       alert('Username Atau Password Salah')
     }
   }
+
+  cekNilai = (e, i,item) => {
+    if(item === this.state.soal[this.state.current].jawaban_benar){
+      this.setState({
+        nilai: this.state.nilai + 1 * 10 / 2,
+        nomor_soal : this.state.nomor_soal + 1,
+      })
+    }else{
+      this.setState({
+        nilai : this.state.nilai + 0 * 10 / 2,
+        nomor_soal : this.state.nomor_soal + 1
+      })
+    }
+    this.state.soal.splice(this.state.current, 1)
+    this.setState({
+      current: Math.floor(Math.random() * this.state.soal.length),
+      total_soal_dikerjakan: this.state.total_soal_dikerjakan + 1
+    })
+    if(this.state.total_soal_dikerjakan === 19){
+      this.setState({
+        condition : 4
+      })
+    }
+  }
+
   render() {
     {if(this.state.condition === 1) {
         return (
-        <View style={styles.container}>
+        <ImageBackground source={require('./image/LAYOUT3-1.jpg')} {...this.props} style={styles.container}>
           <View style={
             {
               width: 100, 
@@ -83,7 +110,7 @@ export default class App extends Component{
             } 
             title="login" 
             />
-        </View>
+        </ImageBackground>
       )}else if (this.state.condition === 2){
         return (
           <View>
@@ -137,7 +164,7 @@ export default class App extends Component{
               <TouchableOpacity onPress={
                 () => this.setState(
                   {
-                    condition : 4
+                    condition : 5
                   }
                 )
               } 
@@ -174,10 +201,25 @@ export default class App extends Component{
             <Button title="Back To Home" style={{marginTop: 20}} onPress={() => this.setState({condition: 2})} />
           </View>
         )
+      }else if(this.state.condition === 4){
+        return(
+          <View>
+            <Text>Total nilai {this.state.nilai}</Text>
+          </View>
+        )
       }else{
         return(
           <View>
-            <Text>Soal</Text>
+              <Text>{this.state.soal[this.state.current].soal}</Text>
+              {this.state.soal[this.state.current].jawaban.map((item, i) => {
+                return(
+                  <View key={i}>
+                    <TouchableOpacity>
+                      <Button onPress={() => this.cekNilai(this, i, item)} title={item} />                    
+                    </TouchableOpacity>
+                  </View>
+                )
+              })}
           </View>
         )
       }
@@ -188,6 +230,7 @@ export default class App extends Component{
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    height: 568,
     alignItems: 'center',
     backgroundColor: 'white',
     paddingTop: "35%",
@@ -195,8 +238,11 @@ const styles = StyleSheet.create({
   textinput:{
     alignSelf: 'center',
     width: "60%",
-    backgroundColor: "blue",
+    height: 40,
+    borderWidth: 1,
+    borderRadius: 5,
     margin : 10,
+    color: "black"
   },
   welcome: {
     fontSize: 20,
