@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {StyleSheet, Text, View, Button, TextInput, Linking, Image, TouchableOpacity, ImageBackground} from 'react-native';
 import Soal from './Soal.json'
+//import LinearGradient from 'react-native-linear-gradient';
 
 export default class App extends Component{
   constructor(){
@@ -113,14 +114,17 @@ export default class App extends Component{
         </ImageBackground>
       )}else if (this.state.condition === 2){
         return (
-          <View style={{flex: 1,flexDirection: "column"}}>
+          <View style={{flex: 1,flexDirection: "column", backgroundColor: "#fff9ae",justifyContent: "center", alignItems: "center"}}>
+          
               <View style={
                 {
-                  height: "40%",
+                  height: "35%",
+                  width: "85%",
                 //  flex: 1,
                   justifyContent: "center",
                   alignItems: 'center', 
-                  backgroundColor: "grey"
+                //  backgroundColor: "grey",
+                //  borderWidth: 1
                 }
               }
               >
@@ -140,27 +144,36 @@ export default class App extends Component{
                 () => this.setState(
                   {condition : 3}
                 )
-              } 
+              }
               style={
                 {
                   height: "30%",
                 //  flex: 1,
-                  justifyContent: "center",
+                  marginVertical: "2.5%",
+                //  justifyContent: "center",
                   alignItems: 'center',
                   //paddingTop: 15, 
-                  backgroundColor: "red"
+                  backgroundColor: "transparent",
+                //  borderWidth: 1,
+                  borderRadius: 10,
+                  width: "85%",
+                  //backgroundColor: "rgba(0,0,0,0.5)",
+                  //opacity: 0.5
                 }
               }
               >
                 <Image style={
                   {
-                    width: 100, 
-                    height: 100, 
-                    marginBottom: 50
+                    width: 150, 
+                    height: 150,
+                    maxWidth: 300, 
+                    maxHeight: 300,
+                    marginBottom: 50,
+                    
                   }
                 } 
                 source={
-                  require('./image/download.png')
+                  require('./image/flatbook.png')
                 }
                 />
               </TouchableOpacity>
@@ -178,21 +191,25 @@ export default class App extends Component{
                   justifyContent: 'center', 
                   alignItems: 'center', 
                  // paddingTop: 15, 
-                  backgroundColor: "yellow"
+                  backgroundColor: "transparent",
+                //  borderWidth: 1,
+                  borderRadius: 10,
+                  width: "85%"
                 }
               }
               >
                 <Image style={
                   {
-                    width: 100, 
-                    height: 100
+                    width: 150, 
+                    height: 150
                   }
                 } 
                 source={
-                  require('./image/download.png')
+                  require('./image/exam.png')
                 }
                 />
               </TouchableOpacity>
+            
           </View>
         )
       }else if(this.state.condition === 3){
@@ -215,15 +232,15 @@ export default class App extends Component{
         )
       }else{
         return(
-          <View style={{flex: 1, alignItems: "center", paddingTop: "15%", backgroundColor: "green" }}>
+          <View style={{flex: 1, alignItems: "center", paddingTop: "15%", backgroundColor: "#1ebbd7" }}>
               <View style={{alignItems: "center", justifyContent: "center" ,borderRadius: 3,width: "80%", height: "20%", backgroundColor: "white", marginBottom: 20}}>
                 <Text style={{textAlign: "center", color: "black"}}>{this.state.soal[this.state.current].soal}</Text>
               </View>
               {this.state.soal[this.state.current].jawaban.map((item, i) => {
                 return(
                   <View style={{width: "80%", marginVertical: 10}} key={i}>
-                    <TouchableOpacity  style={{backgroundColor: "white", opacity: 0.5, height: 35, justifyContent: "center"}} onPress={() => this.cekNilai(this, i, item)}>
-                      <Text style={{textAlign: "center", color: "black", opacity: 1}}>{item}</Text>
+                    <TouchableOpacity  style={{backgroundColor: "white", height: 35, justifyContent: "center"}} onPress={() => this.cekNilai(this, i, item)}>
+                      <Text style={{textAlign: "center", color: "black"}}>{item}</Text>
                     </TouchableOpacity>
                   </View>
                 )
