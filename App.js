@@ -1,11 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
 import React, {Component} from 'react';
 import {StyleSheet, Text, View, Button, TextInput, Linking, Image, TouchableOpacity, ImageBackground} from 'react-native';
 import Soal from './Soal.json'
@@ -16,10 +8,10 @@ export default class App extends Component{
     this.state = {
       name : "",
       password : "",
-      soal: Soal.slice(),
       jawaban: "",
-      current: Math.floor(Math.random()* 51),
       materi: "",
+      soal: "",
+      current: "",
       nomor_soal: 0,
       condition : 1,
       nilai: 0,
@@ -27,10 +19,17 @@ export default class App extends Component{
     }
   }
 
+  componentWillMount = () => {
+    this.setState({
+        soal: Soal.slice(),
+        current: Math.floor(Math.random()* Soal.length),
+    })
+  }
+
   componentDidMount = () =>{
   }
   cekUser = () => {
-    if(this.state.name === "admin" && this.state.password === "admin"){
+    if(this.state.name === "" && this.state.password === ""){
       this.setState({
         condition : 2
       })
@@ -56,6 +55,7 @@ export default class App extends Component{
       current: Math.floor(Math.random() * this.state.soal.length),
       total_soal_dikerjakan: this.state.total_soal_dikerjakan + 1
     })
+    //alert(this.state.current)
     if(this.state.total_soal_dikerjakan === 19){
       this.setState({
         condition : 4
@@ -113,12 +113,13 @@ export default class App extends Component{
         </ImageBackground>
       )}else if (this.state.condition === 2){
         return (
-          <View>
+          <View style={{flex: 1,flexDirection: "column"}}>
               <View style={
                 {
-                  paddingTop: 10, 
+                  height: "40%",
+                //  flex: 1,
+                  justifyContent: "center",
                   alignItems: 'center', 
-                  height: "40%", 
                   backgroundColor: "grey"
                 }
               }
@@ -142,9 +143,11 @@ export default class App extends Component{
               } 
               style={
                 {
-                  justifyContent: 'center',
+                  height: "30%",
+                //  flex: 1,
+                  justifyContent: "center",
                   alignItems: 'center',
-                  paddingTop: 15, 
+                  //paddingTop: 15, 
                   backgroundColor: "red"
                 }
               }
@@ -170,9 +173,11 @@ export default class App extends Component{
               } 
               style={
                 {
+                //  flex: 1,
+                  height: "30%",
                   justifyContent: 'center', 
                   alignItems: 'center', 
-                  paddingTop: 15, 
+                 // paddingTop: 15, 
                   backgroundColor: "yellow"
                 }
               }
@@ -205,17 +210,20 @@ export default class App extends Component{
         return(
           <View>
             <Text>Total nilai {this.state.nilai}</Text>
+            <Button onPress={() => this.setState({condition: 2})} title="Back" />
           </View>
         )
       }else{
         return(
-          <View>
-              <Text>{this.state.soal[this.state.current].soal}</Text>
+          <View style={{flex: 1, alignItems: "center", paddingTop: "15%", backgroundColor: "green" }}>
+              <View style={{alignItems: "center", justifyContent: "center" ,borderRadius: 3,width: "80%", height: "20%", backgroundColor: "white", marginBottom: 20}}>
+                <Text style={{textAlign: "center", color: "black"}}>{this.state.soal[this.state.current].soal}</Text>
+              </View>
               {this.state.soal[this.state.current].jawaban.map((item, i) => {
                 return(
-                  <View key={i}>
-                    <TouchableOpacity>
-                      <Button onPress={() => this.cekNilai(this, i, item)} title={item} />                    
+                  <View style={{width: "80%", marginVertical: 10}} key={i}>
+                    <TouchableOpacity  style={{backgroundColor: "white", opacity: 0.5, height: 35, justifyContent: "center"}} onPress={() => this.cekNilai(this, i, item)}>
+                      <Text style={{textAlign: "center", color: "black", opacity: 1}}>{item}</Text>
                     </TouchableOpacity>
                   </View>
                 )
