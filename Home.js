@@ -217,7 +217,7 @@ export default class Home extends Component{
           <ImageBackground source={require('./image/bg.png')} style={{ alignItems: "center", height: "100%", justifyContent: "center"}}>
             {this.state.materi.map((item, i) => {
               return(
-              <TouchableOpacity key={i} onPress={() => this.props.navigation.navigate('Materi', {judul: item.judul})} style={{width: "80%",height: "7%", backgroundColor: "white", justifyContent: "center", borderRadius: 5}}>
+              <TouchableOpacity key={i} onPress={() => this.props.navigation.navigate('Materi', {judul: item.judul, materi: item.materi, image: item.image, other: item.other})} style={{width: "80%",height: "7%", backgroundColor: "white", justifyContent: "center", borderRadius: 5}}>
                 <Text style={{textAlign: "center", fontSize: 18, color: "black"}}>{item.judul}</Text>
               </TouchableOpacity>
               )

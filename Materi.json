@@ -1,6 +1,7 @@
 [
     {
         "judul": "Pencemaran Air",
+        "image": "require('./image/udara(1).jpg')",
         "materi": "Air merupakan komponen yang penting bagi kehidupan. Air juga merupakan kebutuhan utama bagi proses kehidupan di bumi. Semua makhluk hidup, termasuk manusia membutuhkan air untuk menunjang kehidupannya. Manusia membutuhkan air untuk berbagai keperluan, seperti minum,memasak, bercocok tanam, dan mencuci. Semakin banyak jumlah manusia, maka kebutuhan akan air bersih juga semakin besar. Walaupun air merupakan sumber daya alam yang dapat diperbarui, tetapi air mudah terkontaminasi dan tercemar oleh aktivitas manusia.",
         "other":[ 
             {
@@ -95,6 +96,26 @@
                 ]
             }        
         ]
+    },
+    {
+        "judul": "Pencemaran Udara",
+        "image": "require('./image/udara(1).jpg')",
+        "materi": "Udara terdiri atas sejumlah unsur dengan susunan tertentu, yakni nitrogen (78,03%), oksigen (20,99%), argon (0,94%), karbon dioksida (0,033%), dan lain-Iain. Jika ke dalam udara tersebut masuk atau dimasukkan zat asing yang berbeda dengan penyusun udara dalam keadaan normal tadi, maka dapat dikatakan bahwa telah terjadi pencemaran udara.",
+        "other":[
+            {
+                "list_judul":"Penyebab pencemaran Udara",
+                "isi": "Pada umumnya bahan pencemar udara adalah berupa gas-gas. Gas-gas tersebut berasat dari aktivitas rumah tangga, pembakaran bahan bakar kendaraan, hingga aktivitas pabrk/industri. Selain berupa gas, pencemaran udara dapat pula disehabkan oleh partikel padat seperti abu dari letusan gunung berapi, debu yang terbawa angin kencang, serta partikel karbon dari timbal yang dihasilkan dari proses pembakaran kendaraan bermotor.",
+                "isi_list":[]
+
+            },
+            {
+                "list_judul":"Cara mencegah dan menanggulangi pencemaran air",
+                "isi": "Berikut beberapa upaya yang dapat dilakukan untuk mencegah pencemaran air",
+                "isi_list": []
+
+            }
+        ]
+         
     }
 ]
     
