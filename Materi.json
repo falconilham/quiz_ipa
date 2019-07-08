@@ -1,0 +1,100 @@
+[
+    {
+        "judul": "Pencemaran Air",
+        "materi": "Air merupakan komponen yang penting bagi kehidupan. Air juga merupakan kebutuhan utama bagi proses kehidupan di bumi. Semua makhluk hidup, termasuk manusia membutuhkan air untuk menunjang kehidupannya. Manusia membutuhkan air untuk berbagai keperluan, seperti minum,memasak, bercocok tanam, dan mencuci. Semakin banyak jumlah manusia, maka kebutuhan akan air bersih juga semakin besar. Walaupun air merupakan sumber daya alam yang dapat diperbarui, tetapi air mudah terkontaminasi dan tercemar oleh aktivitas manusia.",
+        "other":[ 
+            {
+                "list_judul":"Penyebab pencemaran air",
+                "isi": "Pencemaran air dapat terjadi pada sumber mata air, sumur, sungai, rawa, danau, dan laut. Terjadinya pencemaran air dapat disebabkan oleh kontaminasi dengan bahan pencemar air, seperti limbah rumah tangga, limbah pertanian (sisa-sisa pupuk atau pestisida), limbah industri, limbah rumah sakit, dan lain-lain.Secara garis besar,komponen penyebab terjadinya pencemaran air dapat dibedakan menjadi lima,yaitu ",
+                "isi_list":[
+                    {
+                        "judul":"Detergen dan pewarna tekstil",
+                        "isi":"Penggunaan detergen saat ini semakin meningkat untuk berbagai keperluan. Detergen dapatcemari lingkungan bukan karena memiliki kandungan racun yang berbahaya, tetap karena mengandung senyawa fosfat yang dapat memicu terjadinya eutrofikasi. Eutro adalah pertumbuhan gulma air, seperti eceng gondok, kiambang (Salvinia sp.)"
+                    },
+                    {
+                        "judul":"Pupuk pestisida",
+                        "isi":"Penggunaan pupuk kimia, seperti urea dan NPK yang berlebihan oleh petani dapat mengakibatkan terjadinya pencemaran air karena akan dihanyutkan oleh air hujan dan terbawa oleh aliran air ke sungai, kemudian menyebabkan terjadinya eutrofikasi.e estum,Herbisida dan insektisida juga dapat mengakibatkan pencemaran air karena pada umumnyar kedua zat tersebut sulit diuraikan oleh mikroorganisme. Insektisida juga sering dicampur dengan minyak bumi, sehingga air yang terkena bahan buangan ini permukaannya tertutup oleh lapisan minyak dan dapat menyebabkan turunnya kandungan oksigen dalam air"
+                    },
+                    {
+                        "judul":"Bahan-bahan organik",
+                        "isi":"Pada umumnya bahan buangan organik berupa limbah yang dapat dibusukkan atau diuraikan oleh mikroorganisme. Karena bahan ini dapat membusuk dan diuraikan oleh mikroorganisme, maka sebaiknya bahan organik tidak dibuang ke air akan tetapi diolah menjadi kompos yang berguna untuk tanaman. Bahan organik yang dibuang ke dalam air dapat menyebabkan bertambahnya jumlah mikroorganisme dalam air, menurunkan kadar oksigen dalam air, serta menimbulkan bau yang tidak sedap"
+                    },
+                    {
+                        "judul":"Logam-logam berat",
+                        "isi":"Logam berat adalah logam yang terdapat pada sampah dan limbah industri yang menimbulkan bahaya lingkungan jangka panjang. Beberapa polutan logam berat yang- ering terdapat dalam air buangan limbah, yaitu raksa (Hg), timbal (Pb), kadmium (Cd) dan krom (Cr). Jika air yang tercemar limbah penanganannya tidak terkontrol, maka akan dapat membahayakan kehidupan. Salah satu contoh pencemaran air yang disebabkan oleh logam berat adalah pencemaran raksa yang terjadi di Minamata, Jepang. Para nelayan di sekitar teluk Minamata memakan ikan yang tercemar raksa. Akibatnya, mereka mengalami kerusakan saraf yang disebut penyakit Minamata."
+                    },
+                    {
+                        "judul":"Minyak bumi",
+                        "isi":"Minyak bumi yang terdapat di air, ada yang berasal dari pembersihan kapal laut, kebocoran kapal pembawa minyak bumi, dan buangan pabrik. Lapisan minyak di permukaan air dapat mengakibatkan pencemaran karena menutupi permukaan air, menghalangi masuknya sinar  matahari ke dalam air, dan mengganggu kehidupan organisme yang ada di dalamnya"
+                    }
+                ]
+            },
+            {
+                "list_judul":"Penyebab pencemaran air",
+                "isi":"Air yang tercemar dapat Anda ketahui dari beberapa tanda berikut ini.",
+                "isi_list":[
+            
+                    {
+                        "judul":"Adanya perubahan suhu, warna, bau, dan rasa air"
+                    },
+                    {
+                        "judul":"Adanya penurunan derajat keasaman (pH) air"
+                    },
+                    {
+                        "judul":"Adanya endapan dan bahan terlarut. Misalnya, pestisida dan logam-logam berat."
+                    },
+                    {
+                        "judul":"Adanya mikroorganisme di dalam air. Mikroorganisme tersebut dimungkinkan sebag mikroorganisme patogen, yaitu mikroorganisme pembawa penyakit, seperti bakteri E. coli, kolera, disentri, dan tifus"
+                    }
+                ]
+            },
+            {
+                "list_judul":"Dampak pencemaran air",
+                "isi": "Pencemaran air tentu dapat mengakibatkan dampak buruk, seperti menurunnya kualitas air, terjadinya gangguan kesehatan, serta merusak pemandangan.",
+                "isi_list": [
+            
+                    {
+                    "judul":"Penurunan kualitas air",
+                    "isi":"Pencemaran air dapat menyebabkan menurunnya kualitas air. Penurunan kualitas air ini ditandai dengan menurunnya kadar oksigen dalam air. Akibatnya, keseimbangan ekosistem perairan dan kehidupan organisme air akan terganggu."
+                    },
+                    {
+                    "judul":"Dampak terhadap biota air",
+                    "isi":"Perairan yang tercemar, terutama oleh buangan detergen dan pestisida akan mengakibatkan terjadinya peningkatan kesuburan gulma air Peristiwa ini disebut dengan eutrofikasi. Selain itu, perairan yang tercemar fosfat juga akan mengakibatkan algae, yaitu terjadinya ledakan populasi ganggang. Eutrofikasi dan bloorming algae dapat mengakibatkan menurunnya kadar oksigen di wilayah perairan yang dapat nmerusak biota perairan. Selain itu, eutrofikasi dan blooming algae juga dapat mengakibatkan pendangkalan dasar perairan. Adapun, zat-zat beracun yang masuk ke dalam air dapat pula mengakibatkan matinya biota laut."
+                    },
+                    {
+                    "judul":"Gangguan sesehatan",
+                    "isi":"Air yang tercemar dapat digunakan  sarang nyamuk dan lalat, serta dapat menyebabkan berbagai penyakit, misalnya muntaber."
+                    },
+                    {
+                    "judul":"Mengganggu pemandangan",
+                    "isi":"Kadang-kadang air limbah mengandung polutan yang tidak mengganggu kesehatan dan ekosistem, tetapi mengganggu pemandangan kota. Meskipun air yang tercemar terkadang tidak menimbulkan bau, tetapi perubahan warna air mengganggu pandangan mata, Hal ini tentu mengganggu kenyamanan dan keasrian kota."
+                    },
+                    {
+                    "judul":"Mempercepat proses kerusakan benda",
+                    "isi":"Ada sebagian air limbah yang mengandu menjadi perkaratan pada besi. Agar terhindar dari hal-hal di atas, sebaiknya sebelum dibuang, air limbah harus diolah terlebih dahulu dan memenuhi ketentuan baku mutu air limbah."
+                    }
+                ]
+            },
+            {
+                "list_judul":"Cara mencegah dan menanggulangi pencemaran air",
+                "isi": "Berikut beberapa upaya yang dapat dilakukan untuk mencegah pencemaran air",
+                "isi_list": [
+        
+                    {
+                    "judul":"Limbah rumah tangga yang berbentuk cair dialirkan ke bak penampungana pembuangan yang telah disediakan agar tidak mencemari sumber air dan bau tak sedap"
+                    },
+                    {
+                    "judul":"Penggunaan detergen dan sabun untuk mencuci pakaian dan perabotan jangan berlebihan.Air cucian pakaian yang sudah diencerkan dapat digunakan untuk menyiram tanaman"
+                    },
+                    {
+                    "judul":"Menghindari penggunaan pestisida atau insektisida kimia dan menggunakan metode pemberantasan hama secara biologis"
+                    },
+                    {
+                    "judul":"pabrik arus melakukan pengolahan limbah sebelum dibuang ke perairan sungai ataupun ntuk warga yang tinggal dekat pabrik, hendaknya mengawasi pabrik-pabrik supaya tidak terjadinya kebocoran tangki penyimpanan minyak, kapal tanker maupun pipa"
+                    }
+                ]
+            }        
+        ]
+    }
+]
+    
