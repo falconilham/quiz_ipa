@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {StyleSheet, Text, View, Button, TextInput, Linking, Image, TouchableOpacity, ImageBackground} from 'react-native';
 import Soal from './Soal.json'
 import Materi from './Materi.json' 
+import { ScrollView } from 'react-native-gesture-handler';
 //import LinearGradient from 'react-native-linear-gradient';
 
 export default class Home extends Component{
@@ -17,7 +18,12 @@ export default class Home extends Component{
       nomor_soal: 0,
       condition : 1,
       nilai: 0,
-      total_soal_dikerjakan: 0
+      total_soal_dikerjakan: 1,
+      image:[
+        require('./image/air.jpg'),
+        require('./image/udara.jpg'),
+        require('./image/tanah.jpg')
+      ]
     }
   }
 
@@ -31,12 +37,15 @@ export default class Home extends Component{
   componentDidMount = () =>{
   }
   cekUser = () => {
-    if(this.state.name === "" && this.state.password === ""){
+    let UserName = this.state.name.split("")
+    if(UserName.length == 0){
+      alert("username Tidak Boleh Kosong")
+    }else if(UserName.length < 5){
+      alert("username tidak boleh kurang dari 5 karakter")
+    }else{
       this.setState({
         condition : 2
       })
-    }else{
-      alert('Username Atau Password Salah')
     }
   }
 
@@ -58,7 +67,7 @@ export default class Home extends Component{
       total_soal_dikerjakan: this.state.total_soal_dikerjakan + 1
     })
     //alert(this.state.current)
-    if(this.state.total_soal_dikerjakan === 19){
+    if(this.state.total_soal_dikerjakan === 20){
       this.setState({
         condition : 4
       })
@@ -71,7 +80,7 @@ export default class Home extends Component{
   render() {
     {if(this.state.condition === 1) {
         return (
-        <ImageBackground source={require('./image/LAYOUT3-1.jpg')} {...this.props} style={styles.container}>
+        <ImageBackground source={require('./image/bg.png')} {...this.props} style={styles.container}>
           <View style={
             {
               width: 100, 
@@ -99,15 +108,6 @@ export default class Home extends Component{
             } 
             placeholder="Input Nama Anda" />
             
-            <TextInput style={
-              styles.textinput
-            } 
-            onChangeText={
-              (password) => this.setState({password})
-            } 
-            secureTextEntry={true} 
-            placeholder="Input Password" 
-            />
           <Button 
             color="#a3a2f1" 
             onPress={
@@ -119,7 +119,6 @@ export default class Home extends Component{
       )}else if (this.state.condition === 2){
         return (
           <ImageBackground source={require('./image/bg.png')} style={{flex: 1,flexDirection: "column", backgroundColor: "#fff9ae",justifyContent: "center", alignItems: "center"}}>
-          
               <View style={
                 {
                   height: "35%",
@@ -142,7 +141,6 @@ export default class Home extends Component{
                   require('./image/LAYOUT1.jpg')
                 }
                 />
-                <Text>{this.state.name}</Text>
               </View>
               <TouchableOpacity onPress={
                 () => this.setState(
@@ -214,24 +212,26 @@ export default class Home extends Component{
         )
       }else if(this.state.condition === 3){
         return(
-          <ImageBackground source={require('./image/bg.png')} style={{ alignItems: "center", height: "100%", justifyContent: "center"}}>
+          <ImageBackground source={require('./image/bg.png')} style={{flex: 1, flexDirection: "column", width: "100%", justifyContent:"space-between", alignItems: "center", height: "100%"}}>
+          <Button title="Back" style={{width: "100%"}} onPress={() => this.setState({condition: 2})} />
             {this.state.materi.map((item, i) => {
               return(
-              <TouchableOpacity key={i} onPress={() => this.props.navigation.navigate('Materi', {judul: item.judul, materi: item.materi, image: item.image, other: item.other})} style={{width: "80%",height: "7%", backgroundColor: "white", justifyContent: "center", borderRadius: 5}}>
-                <Text style={{textAlign: "center", fontSize: 18, color: "black"}}>{item.judul}</Text>
+              <TouchableOpacity key={i} onPress={() => this.props.navigation.navigate('Materi', {judul: item.judul, materi: item.materi, image: item.image, other: item.other})} style={{justifyContent:"center", height: "100%", maxHeight: "30%", width:"95%"}}>
+                <ImageBackground source={this.state.image[i]} style={{width: "100%", height: "100%", justifyContent:"center"}}>
+                  <Text style={{textAlign: "center", fontSize: 28, color: "white"}}>{item.judul}</Text>
+                </ImageBackground>
               </TouchableOpacity>
               )
             })}
-            <Text>    {this.state.materi.isi_materi}</Text>
-            <Button title="Back To Home" style={{marginTop: 20}} onPress={() => this.setState({condition: 2})} />
           </ImageBackground>
         )
       }else if(this.state.condition === 4){
         return(
-          <View>
-            <Text>Total nilai {this.state.nilai}</Text>
+          <ImageBackground source={require('./image/bg.png')} style={{flex: 1,justifyContent: "center", alignItems: "center"}}>
+            <Text style={styles.color}>Halo {this.state.name}</Text>
+            <Text style={{marginVertical: 20, color: "black"}}>Total nilai anda {this.state.nilai}</Text>
             <Button onPress={() => this.setState({condition: 2})} title="Back" />
-          </View>
+          </ImageBackground>
         )
       }else{
         return(
@@ -258,10 +258,12 @@ export default class Home extends Component{
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    height: 568,
     alignItems: 'center',
     backgroundColor: 'white',
     paddingTop: "35%",
+  },
+  color: {
+    color: "black"
   },
   textinput:{
     alignSelf: 'center',

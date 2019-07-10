@@ -10,23 +10,33 @@
                 "isi_list":[
                     {
                         "judul":"Detergen dan pewarna tekstil",
-                        "isi":"Penggunaan detergen saat ini semakin meningkat untuk berbagai keperluan. Detergen dapatcemari lingkungan bukan karena memiliki kandungan racun yang berbahaya, tetap karena mengandung senyawa fosfat yang dapat memicu terjadinya eutrofikasi. Eutro adalah pertumbuhan gulma air, seperti eceng gondok, kiambang (Salvinia sp.)"
+                        "isi":"Penggunaan detergen saat ini semakin meningkat untuk berbagai keperluan. Detergen dapatcemari lingkungan bukan karena memiliki kandungan racun yang berbahaya, tetap karena mengandung senyawa fosfat yang dapat memicu terjadinya eutrofikasi. Eutro adalah pertumbuhan gulma air, seperti eceng gondok, kiambang (Salvinia sp.)",
+                        "isi1":"",
+                        "isi2":""
                     },
                     {
                         "judul":"Pupuk pestisida",
-                        "isi":"Penggunaan pupuk kimia, seperti urea dan NPK yang berlebihan oleh petani dapat mengakibatkan terjadinya pencemaran air karena akan dihanyutkan oleh air hujan dan terbawa oleh aliran air ke sungai, kemudian menyebabkan terjadinya eutrofikasi.e estum,Herbisida dan insektisida juga dapat mengakibatkan pencemaran air karena pada umumnyar kedua zat tersebut sulit diuraikan oleh mikroorganisme. Insektisida juga sering dicampur dengan minyak bumi, sehingga air yang terkena bahan buangan ini permukaannya tertutup oleh lapisan minyak dan dapat menyebabkan turunnya kandungan oksigen dalam air"
+                        "isi":"Penggunaan pupuk kimia, seperti urea dan NPK yang berlebihan oleh petani dapat mengakibatkan terjadinya pencemaran air karena akan dihanyutkan oleh air hujan dan terbawa oleh aliran air ke sungai, kemudian menyebabkan terjadinya eutrofikasi.e estum,Herbisida dan insektisida juga dapat mengakibatkan pencemaran air karena pada umumnyar kedua zat tersebut sulit diuraikan oleh mikroorganisme. Insektisida juga sering dicampur dengan minyak bumi, sehingga air yang terkena bahan buangan ini permukaannya tertutup oleh lapisan minyak dan dapat menyebabkan turunnya kandungan oksigen dalam air",
+                        "isi1":"",
+                        "isi2":""
                     },
                     {
                         "judul":"Bahan-bahan organik",
-                        "isi":"Pada umumnya bahan buangan organik berupa limbah yang dapat dibusukkan atau diuraikan oleh mikroorganisme. Karena bahan ini dapat membusuk dan diuraikan oleh mikroorganisme, maka sebaiknya bahan organik tidak dibuang ke air akan tetapi diolah menjadi kompos yang berguna untuk tanaman. Bahan organik yang dibuang ke dalam air dapat menyebabkan bertambahnya jumlah mikroorganisme dalam air, menurunkan kadar oksigen dalam air, serta menimbulkan bau yang tidak sedap"
+                        "isi":"Pada umumnya bahan buangan organik berupa limbah yang dapat dibusukkan atau diuraikan oleh mikroorganisme. Karena bahan ini dapat membusuk dan diuraikan oleh mikroorganisme, maka sebaiknya bahan organik tidak dibuang ke air akan tetapi diolah menjadi kompos yang berguna untuk tanaman. Bahan organik yang dibuang ke dalam air dapat menyebabkan bertambahnya jumlah mikroorganisme dalam air, menurunkan kadar oksigen dalam air, serta menimbulkan bau yang tidak sedap",
+                        "isi1":"",
+                        "isi2":""
                     },
                     {
                         "judul":"Logam-logam berat",
-                        "isi":"Logam berat adalah logam yang terdapat pada sampah dan limbah industri yang menimbulkan bahaya lingkungan jangka panjang. Beberapa polutan logam berat yang- ering terdapat dalam air buangan limbah, yaitu raksa (Hg), timbal (Pb), kadmium (Cd) dan krom (Cr). Jika air yang tercemar limbah penanganannya tidak terkontrol, maka akan dapat membahayakan kehidupan. Salah satu contoh pencemaran air yang disebabkan oleh logam berat adalah pencemaran raksa yang terjadi di Minamata, Jepang. Para nelayan di sekitar teluk Minamata memakan ikan yang tercemar raksa. Akibatnya, mereka mengalami kerusakan saraf yang disebut penyakit Minamata."
+                        "isi":"Logam berat adalah logam yang terdapat pada sampah dan limbah industri yang menimbulkan bahaya lingkungan jangka panjang. Beberapa polutan logam berat yang- ering terdapat dalam air buangan limbah, yaitu raksa (Hg), timbal (Pb), kadmium (Cd) dan krom (Cr). Jika air yang tercemar limbah penanganannya tidak terkontrol, maka akan dapat membahayakan kehidupan. Salah satu contoh pencemaran air yang disebabkan oleh logam berat adalah pencemaran raksa yang terjadi di Minamata, Jepang. Para nelayan di sekitar teluk Minamata memakan ikan yang tercemar raksa. Akibatnya, mereka mengalami kerusakan saraf yang disebut penyakit Minamata.",
+                        "isi1":"",
+                        "isi2":""
                     },
                     {
                         "judul":"Minyak bumi",
-                        "isi":"Minyak bumi yang terdapat di air, ada yang berasal dari pembersihan kapal laut, kebocoran kapal pembawa minyak bumi, dan buangan pabrik. Lapisan minyak di permukaan air dapat mengakibatkan pencemaran karena menutupi permukaan air, menghalangi masuknya sinar  matahari ke dalam air, dan mengganggu kehidupan organisme yang ada di dalamnya"
+                        "isi":"Minyak bumi yang terdapat di air, ada yang berasal dari pembersihan kapal laut, kebocoran kapal pembawa minyak bumi, dan buangan pabrik. Lapisan minyak di permukaan air dapat mengakibatkan pencemaran karena menutupi permukaan air, menghalangi masuknya sinar  matahari ke dalam air, dan mengganggu kehidupan organisme yang ada di dalamnya",
+                        "isi1":"",
+                        "isi2":""
                     }
                 ]
             },
@@ -36,16 +46,28 @@
                 "isi_list":[
             
                     {
-                        "judul":"Adanya perubahan suhu, warna, bau, dan rasa air"
+                        "judul":"Adanya perubahan suhu, warna, bau, dan rasa air",
+                        "isi":"",
+                        "isi1":"",
+                        "isi2":""
                     },
                     {
-                        "judul":"Adanya penurunan derajat keasaman (pH) air"
+                        "judul":"Adanya penurunan derajat keasaman (pH) air",
+                        "isi":"",
+                        "isi1":"",
+                        "isi2":""
                     },
                     {
-                        "judul":"Adanya endapan dan bahan terlarut. Misalnya, pestisida dan logam-logam berat."
+                        "judul":"Adanya endapan dan bahan terlarut. Misalnya, pestisida dan logam-logam berat.",
+                        "isi":"",
+                        "isi1":"",
+                        "isi2":""
                     },
                     {
-                        "judul":"Adanya mikroorganisme di dalam air. Mikroorganisme tersebut dimungkinkan sebag mikroorganisme patogen, yaitu mikroorganisme pembawa penyakit, seperti bakteri E. coli, kolera, disentri, dan tifus"
+                        "judul":"Adanya mikroorganisme di dalam air. Mikroorganisme tersebut dimungkinkan sebag mikroorganisme patogen, yaitu mikroorganisme pembawa penyakit, seperti bakteri E. coli, kolera, disentri, dan tifus",
+                        "isi":"",
+                        "isi1":"",
+                        "isi2":""
                     }
                 ]
             },
@@ -55,24 +77,34 @@
                 "isi_list": [
             
                     {
-                    "judul":"Penurunan kualitas air",
-                    "isi":"Pencemaran air dapat menyebabkan menurunnya kualitas air. Penurunan kualitas air ini ditandai dengan menurunnya kadar oksigen dalam air. Akibatnya, keseimbangan ekosistem perairan dan kehidupan organisme air akan terganggu."
+                        "judul":"Penurunan kualitas air",
+                        "isi":"Pencemaran air dapat menyebabkan menurunnya kualitas air. Penurunan kualitas air ini ditandai dengan menurunnya kadar oksigen dalam air. Akibatnya, keseimbangan ekosistem perairan dan kehidupan organisme air akan terganggu.",
+                        "isi1":"",
+                        "isi2":""
                     },
                     {
-                    "judul":"Dampak terhadap biota air",
-                    "isi":"Perairan yang tercemar, terutama oleh buangan detergen dan pestisida akan mengakibatkan terjadinya peningkatan kesuburan gulma air Peristiwa ini disebut dengan eutrofikasi. Selain itu, perairan yang tercemar fosfat juga akan mengakibatkan algae, yaitu terjadinya ledakan populasi ganggang. Eutrofikasi dan bloorming algae dapat mengakibatkan menurunnya kadar oksigen di wilayah perairan yang dapat nmerusak biota perairan. Selain itu, eutrofikasi dan blooming algae juga dapat mengakibatkan pendangkalan dasar perairan. Adapun, zat-zat beracun yang masuk ke dalam air dapat pula mengakibatkan matinya biota laut."
+                        "judul":"Dampak terhadap biota air",
+                        "isi":"Perairan yang tercemar, terutama oleh buangan detergen dan pestisida akan mengakibatkan terjadinya peningkatan kesuburan gulma air Peristiwa ini disebut dengan eutrofikasi. Selain itu, perairan yang tercemar fosfat juga akan mengakibatkan algae, yaitu terjadinya ledakan populasi ganggang. Eutrofikasi dan bloorming algae dapat mengakibatkan menurunnya kadar oksigen di wilayah perairan yang dapat nmerusak biota perairan. Selain itu, eutrofikasi dan blooming algae juga dapat mengakibatkan pendangkalan dasar perairan. Adapun, zat-zat beracun yang masuk ke dalam air dapat pula mengakibatkan matinya biota laut.",
+                        "isi1":"",
+                        "isi2":""
                     },
                     {
-                    "judul":"Gangguan sesehatan",
-                    "isi":"Air yang tercemar dapat digunakan  sarang nyamuk dan lalat, serta dapat menyebabkan berbagai penyakit, misalnya muntaber."
+                        "judul":"Gangguan sesehatan",
+                        "isi":"Air yang tercemar dapat digunakan  sarang nyamuk dan lalat, serta dapat menyebabkan berbagai penyakit, misalnya muntaber.",
+                        "isi1":"",
+                        "isi2":""
                     },
                     {
-                    "judul":"Mengganggu pemandangan",
-                    "isi":"Kadang-kadang air limbah mengandung polutan yang tidak mengganggu kesehatan dan ekosistem, tetapi mengganggu pemandangan kota. Meskipun air yang tercemar terkadang tidak menimbulkan bau, tetapi perubahan warna air mengganggu pandangan mata, Hal ini tentu mengganggu kenyamanan dan keasrian kota."
+                        "judul":"Mengganggu pemandangan",
+                        "isi":"Kadang-kadang air limbah mengandung polutan yang tidak mengganggu kesehatan dan ekosistem, tetapi mengganggu pemandangan kota. Meskipun air yang tercemar terkadang tidak menimbulkan bau, tetapi perubahan warna air mengganggu pandangan mata, Hal ini tentu mengganggu kenyamanan dan keasrian kota.",
+                        "isi1":"",
+                        "isi2":""
                     },
                     {
-                    "judul":"Mempercepat proses kerusakan benda",
-                    "isi":"Ada sebagian air limbah yang mengandu menjadi perkaratan pada besi. Agar terhindar dari hal-hal di atas, sebaiknya sebelum dibuang, air limbah harus diolah terlebih dahulu dan memenuhi ketentuan baku mutu air limbah."
+                        "judul":"Mempercepat proses kerusakan benda",
+                        "isi":"Ada sebagian air limbah yang mengandu menjadi perkaratan pada besi. Agar terhindar dari hal-hal di atas, sebaiknya sebelum dibuang, air limbah harus diolah terlebih dahulu dan memenuhi ketentuan baku mutu air limbah.",
+                        "isi1":"",
+                        "isi2":""
                     }
                 ]
             },
@@ -80,18 +112,29 @@
                 "list_judul":"Cara mencegah dan menanggulangi pencemaran air",
                 "isi": "Berikut beberapa upaya yang dapat dilakukan untuk mencegah pencemaran air",
                 "isi_list": [
-        
                     {
-                    "judul":"Limbah rumah tangga yang berbentuk cair dialirkan ke bak penampungana pembuangan yang telah disediakan agar tidak mencemari sumber air dan bau tak sedap"
+                        "judul":"Limbah rumah tangga yang berbentuk cair dialirkan ke bak penampungana pembuangan yang telah disediakan agar tidak mencemari sumber air dan bau tak sedap",
+                        "isi":"",
+                        "isi1":"",
+                        "isi2":""
                     },
                     {
-                    "judul":"Penggunaan detergen dan sabun untuk mencuci pakaian dan perabotan jangan berlebihan.Air cucian pakaian yang sudah diencerkan dapat digunakan untuk menyiram tanaman"
+                        "judul":"Penggunaan detergen dan sabun untuk mencuci pakaian dan perabotan jangan berlebihan.Air cucian pakaian yang sudah diencerkan dapat digunakan untuk menyiram tanaman",
+                        "isi":"",
+                        "isi1":"",
+                        "isi2":""
                     },
                     {
-                    "judul":"Menghindari penggunaan pestisida atau insektisida kimia dan menggunakan metode pemberantasan hama secara biologis"
+                        "judul":"Menghindari penggunaan pestisida atau insektisida kimia dan menggunakan metode pemberantasan hama secara biologis",
+                        "isi":"",
+                        "isi1":"",
+                        "isi2":""
                     },
                     {
-                    "judul":"pabrik arus melakukan pengolahan limbah sebelum dibuang ke perairan sungai ataupun ntuk warga yang tinggal dekat pabrik, hendaknya mengawasi pabrik-pabrik supaya tidak terjadinya kebocoran tangki penyimpanan minyak, kapal tanker maupun pipa"
+                        "judul":"pabrik arus melakukan pengolahan limbah sebelum dibuang ke perairan sungai ataupun ntuk warga yang tinggal dekat pabrik, hendaknya mengawasi pabrik-pabrik supaya tidak terjadinya kebocoran tangki penyimpanan minyak, kapal tanker maupun pipa",
+                        "isi":"",
+                        "isi1":"",
+                        "isi2":""
                     }
                 ]
             }        
@@ -109,13 +152,181 @@
 
             },
             {
-                "list_judul":"Cara mencegah dan menanggulangi pencemaran air",
-                "isi": "Berikut beberapa upaya yang dapat dilakukan untuk mencegah pencemaran air",
-                "isi_list": []
+                "list_judul":"Dampak pencemaran Udara",
+                "isi": "Berikut beberapa dampak yang diakibatkan dari pencemaran udara",
+                "isi_list": [
+                    {
+                        "judul":"Efek rumah kaca (green house effect) dan pemanasan global (global warming) Efek rumah kaca merupakan peristiwa terperangkapnya panas dari sinar matahari oleh gas-gas rumah kaca, terutama gas karbon dioksida (CO2). Pada peristiwa ini, gas CO2 akan membentuk semacam lapisan yang akan menahan panas bumi keluar, sehingga panas yang ditimbulkan bumi akan terperangkap di dalam seperti pada rumah kaca. Akibatnya, suhu bumi menjadi naik atau lebih dikenal dengan istilah pemanasan global. Coba bayangkan jika suhu di seluruh permukaan bumi ini naik, apa yang terjadi Bukankah es di kedua kutub bumi akan mencair? Dapatkan Anda membayangkan apa dampak selanjutnya.",
+                        "isi":"",
+                        "isi1":"",
+                        "isi2":""
+                    },
+                    {
+                        "judul":"Hujan asam (acid rain) Salah satu polutan yang dihasilkan dari pembakaran bahan bakar adalah oksida belerang SO2) dan oksida nitrogen (NO dan NO2). Jika kedua jenis polutan ini bereaksi dengan uap air di udara, maka akan terbentuk awan awan asam sulfat dan asam nitrat. Jika awan tersebut turun bersama dengan air hujan, maka akan terjadi hujan asam.",
+                        "isi":"",
+                        "isi1":"",
+                        "isi2":""
+                    },
+                    {
+                        "judul":"Penipisan lapisan ozon adalah gas yang molekulnya terdiri atas tiga atom  oksigen (O3). terbentuk secara alami dari radiasi ultraviolet dengan oksigen yang terdapatdan berfungsi untuk melindungi bumi dari radiasi sinar ultraviolet. Sayangnya ini telah terjadi kerusakan lapisan ozon yang berupa penipisan lapisan ozon dikenal dengan terbentuknya lubang ozon. Peristiwa ini terlihat di atas kutub sel Menurut para ahli, penipisan lapisan ozon disebabkan oleh lepasnya sejumlah buatan dari permukaan bumi sampai ke terjadinya penipisan ozon adalah klorofluorokarbon (CFC) atau lebih dikenal dengan nama dagang freon. Selama berada di atmosfer CFC bersifat stabil, tidak terurai dapat bertahan cukup lama. Namun setelah terkena radiasi ultraviolet pada ketin lapisan ozon, molekul CFC akan melepaskan atom klorin (Cl). Atom Cl yang dilepaskan ini menguraikan ozon (O3), sehingga menghasilkan oksigen (02). Pada setiap atom yang terbentuk, diperkirakan dapat merusak 100.000 molekul ozon, sebelum atom ini rusak karena reaksi lain. Hal inilah yang menyebabkan penipisan lapisan ozon. Penipisan lapisan ozon menyebabkan semakin besarnya jumlah radiasi matahari ke bumi dan dapat mengakibatkan timbulnya kanker kulit, katarak, dan pelemahan sistem daya tahan tubuh, serta kenaikan suhu bumi. Terkena sinar ultraviolet yang berlebihan juga berdampak pada peningkatan penyakit melanoma, yaitu kanker kulit fatal.",
+                        "isi":"",
+                        "isi1":"",
+                        "isi2":""
+                    },
+                    {
+                        "judul":"Beberapa gangguan kesehatan yang disebabkan oleh pencemaran udara. ISPA (infeksi saluran pernapasan),Emfisema, yaitu gejala kesulitan pengangkutan oksigen ,Kadar gas CO yang terlalu banyak di udara dapat menghambat pengikatan oksigen dan menyebabkan tubuh kekurangan oksigen. Hal ini dapat mengakibatkan sesak napas, pusing, bahkan berujung pada kematian apabila tidak segera ditangani Gas NO2 dapat menyebabkan kanker karena bersifat karsinogenik Gas dioksin dapat mengakibatkan penyakit kanker. Dioksin juga dapat mengakibatkan penyakit kulit yang parah, gangguan saraf, depresi, hepatitis, pembengkakan gangguan sistem imunitas, dan gangguan proses pertumbuhan pada anak-anak.",
+                        "isi":"",
+                        "isi1":"",
+                        "isi2":""
+                    }
+                ]
+            },    
+            {
+                "list_judul":"Cara mencegah dan menanggulangi pencemaran udara",
+                "isi":"Berikut beberapa upaya untuk mencegah dan menanggulangi pencemaran udara",
+                "isi_list":[
+                    {
+                        "judul":"Memasang penyaring udara pada cerobong asap pabrik untuk menyaring partikel-partikel yang bercampur asap agar tidak terbebas ke udara",
+                        "isi":"",
+                        "isi1":"",
+                        "isi2":""
+                    },
+                    {
+                        "judul":"Melakukan uji emisi secara berkala terhadap kendaraan bermotor untuk mengetahu kadar gas CO, sebelum layak untuk dioperasikan. Jika setelah uji emisi kendaraan tidak dinyatakan layak, maka kendaraan tidak boleh dioperasikan",
+                        "isi":"",
+                        "isi1":"",
+                        "isi2":""
+                    },
+                    {
+                        "judul":"Mengurangi pemakaian minyak bumi dan batu bara",
+                        "isi":"",
+                        "isi1":"",
+                        "isi2":""
+                    },
+                    {
+                        "judul":"Menggunakan bahan bakar alternatif yang dapat diperbarui dan ramah lingkung, seperti tenaga surya.",
+                        "isi":"",
+                        "isi1":"",
+                        "isi2":""
+                    },
+                    {
+                        "judul":"Jangan membakar sampah. Sampah organik sebaiknya diolah menjadi pupuk sedangkan sampah anorganik dapat didaur ulang",
+                        "isi":"",
+                        "isi1":"",
+                        "isi2":""
+                    },
+                    {
+                        "judul":"Pengawasan yang ketat di wilayah hutan yang rawan terbakar dan melarang membakar semak belukar di sekitar hutan dalam membuka lahan pertanian.",
+                        "isi":"",
+                        "isi1":"",
+                        "isi2":""
+                    },
+                    {
+                        "judul":"Melakukan penghijauan, reboisasi, dan membuat jalur hijau di kota-kota besar",
+                        "isi":"",
+                        "isi1":"",
+                        "isi2":""
+                    }
 
+                ]
+            }   
+        ]    
+    },
+    {
+        "judul":"Pencemaran Tanah",
+        "image": "",
+        "materi": "Tanah merupakan tempat hidup bagi makhluk hidup. Tanah diharapkan dapat memberikan kelangsungan hidup yang baik bagi makhluk hidup yang menempatinya. Namun akibat kecerobohan dan kurangnya kepedulian manusia, pada saat ini telah terjadi pencemaran tanah.Pencemaran tanah umumnya akan berakibat pula pada terjadinya pencemaran air",
+        "other": [
+            {
+                "list_judul":"Penyebab pencemaran Tanah",
+                "isi": "Sumber utama pencemaran tanah adalah banyaknya sampah yang dibuaang oleh manusia, baik sampah rumah tangga, pertanian, ataupun industri.",
+                "isi_list":[
+                    {
+                        "judul":"Sampah rumah tangga",
+                        "isi":"Sampah rumah tangga dapat berupa sampah cair, seperti detergen dan sabun, serta sampah padat, seperti plastik, botol, dan kaleng-kaleng bekas.",
+                        "isi1":"Detergen dan sabun yang digunakan berlebihan dan dibuang ke tanah akan mengganggu kehidupan organisme di tanah, terutama detergen yang sukar diuraikan oleh mikroorganisme.",
+                        "isi2":"Sampah berupa plastik, botol, dan kaleng, jika dibuang ke tanah menyebabkan lapisan tanah tidak dapat ditembus oleh air, mineral, bahkan akar tanaman. Akibatnva kesuburan tanah berkurang dan tanaman sulit tumbuh atau bahkan mati karena tidak memperoleh air dan nutrisi yang cukup untuk tumbuh dan berkemban."
+                    },
+                    {
+                        "judul":"Sampah pertanian",
+                        "isi":"Sampah pertanian yang dapat mencemari tanah dapat berupa pupukataupun pestisida.",
+                        "isi1":"Pupuk yang digunakan secara berlebihan, terutama pupuk kimia, seperti urea, TSP, dan monium sulfat dapat merusak struktur tanah. Akibatnya, kesuburan tanah berkurang dan tidak dapat ditanami jenis tanaman tertentu karena unsur haranya semakin berkurang.",
+                        "isi2":"Pestisida yang digunakan untuk membunuh hewan pengganggu (hama) jika digunakan secara berlebihan justru dapat mematikan tanaman dan hewan kecil yang ada di dalam tanah. Selain itu, penggunaan pestisida dapat mengakibatkan hama tanaman terhadap pestisida tersebut."
+                    },
+                    {
+                        "judul":"Sampah industri",
+                        "isi":"Sampah industri dapat dibedakan menjadi dua, yaitu sampah padat dan sampah cair",
+                        "isi1":" Sampah padat berupa hasil buangan industri yang berbentuk padatan, maupun bubur yang berasal dari proses pengolahan. Misalnya, sisa pengolahan pabrik gula, pulpen, kertas, rayon, plywood, serta pengawetan buah, ikan, daging, dan lain-lain",
+                        "isi2":"Sampah cair, misalnya, sisa-sisa pengolahan industri pelapisan logam dan induustri kimia lainnya. Jika sampah cair yang mengandung logam berat meresap ke dalam tanah, maka akan mengakibatkan kematian mikroorganisme yang memiliki fungsi penting bagi kesuburan tanah."
+                    },
+                    {
+                        "judul":"Logam-logam berat",
+                        "isi":"Logam berat adalah logam yang terdapat pada sampah dan limbah industri yang menimbulkan bahaya lingkungan jangka panjang. Beberapa polutan logam berat yang- ering terdapat dalam air buangan limbah, yaitu raksa (Hg), timbal (Pb), kadmium (Cd) dan krom (Cr). Jika air yang tercemar limbah penanganannya tidak terkontrol, maka akan dapat membahayakan kehidupan. Salah satu contoh pencemaran air yang disebabkan oleh logam berat adalah pencemaran raksa yang terjadi di Minamata, Jepang. Para nelayan di sekitar teluk Minamata memakan ikan yang tercemar raksa. Akibatnya, mereka mengalami kerusakan saraf yang disebut penyakit Minamata."
+                    },
+                    {
+                        "judul":"Minyak bumi",
+                        "isi":"Minyak bumi yang terdapat di air, ada yang berasal dari pembersihan kapal laut, kebocoran kapal pembawa minyak bumi, dan buangan pabrik. Lapisan minyak di permukaan air dapat mengakibatkan pencemaran karena menutupi permukaan air, menghalangi masuknya sinar  matahari ke dalam air, dan mengganggu kehidupan organisme yang ada di dalamnya",
+                        "isi1":"",
+                        "isi2":""
+                    }  
+                ]
+            },
+            {
+                "list_judul": "Dampak pencemaran tanah",
+                "isi": "Pencemaran tanah dalam daerah yang sempit belum menimbulkan dampak yang besar Namun jika pencemaran tanah mencakup wilayah yang luas, maka pencemaran menimbulkan dampak yang besar dan dapat memengaruhi keseimbangan lingkungan.Beberapa dampak yang ditimbulkan oleh pencemaran tanah sebagai berikut.",
+                "isi_list":[
+                    {
+                        "judul": "Timbunan sampah pada permukaan tanah dapat mengganggu pemandangan dalam menghasilkan bau yang tidak sedap. Selain itu, dapat pula menjadi limbah yang dapat menjadi tempat berkembangnya organisme penyebab penyakit, seperti pes, kaki gajah, malaria, dan demam berdarah.",
+                        "isi": "",
+                        "isi1":"",
+                        "isi2":""
+                    },
+                    {
+                        "judul": "Rusaknya struktur tanah, berkurangnya kesuburan tanah, serta hilangnya unsur dalam tanah. Akibatnya, tanaman akan sulit untuk tumbuh dan terjadi penurunan habitat.",
+                        "isi": "",
+                        "isi1":"",
+                        "isi2":""
+                    },
+                    {
+                        "judul": "Pencemaran tanah dapat mengakibatkan pencemaran pada air tanah. Air tanah dari rembesan air di permukaan tanah. Jika permukaan tanah tercemar oleh sampah rumah tangga, pertanian, ataupun industri, maka air tanah juga akan tercemar. Selain itu, pembuatan septic tank yang tidak memenuhi standar, juga dapat mengakibatkan tanah tercemar.",
+                        "isi": "",
+                        "isi1":"",
+                        "isi2":""
+                    }
+                ]
+            },
+            {
+                "list_judul": "Cara mencegah dan menanggulangi pencemaran tanah",
+                "isi": "Berikut upaya yang dapat dilakukan untuk mencegah terjadinya pencemaran tanah.",
+                "isi_list":[
+                    {
+                        "judul": "Mengolah sampah organik menjadi kompos. Kompos dapat digunakan untuk menyuburkan tanah yang akan digunakan untuk menanam tanaman",
+                        "isi": "",
+                        "isi1":"",
+                        "isi2":""
+                    },
+                    {
+                        "judul": "Melakukan daur ulang sampah anorganik, seperti plastik, logam, dan kaca",
+                        "isi": "",
+                        "isi1":"",
+                        "isi2":""
+                    },
+                    {
+                        "judul": "Penggunaan pupuk anorganik, pestisida, herbisida, insektisida harus sesuai aturar tidak boleh berlebihan, serta jangan melakukan penyemprotan pupuk atau insektisida terhadap tanaman pertanian pada waktu akan turun hujan, karena zat-zat tersebut aka dihanyutkan oleh air hujan",
+                        "isi": "",
+                        "isi1":"",
+                        "isi2":""
+                    },
+                    {
+                        "judul": "Melakukan pengolahan terhadap sampah industri yang mengandung logam berat yang dapat mencemari tanah",
+                        "isi": "",
+                        "isi1":"",
+                        "isi2":""
+                    }
+                ]
             }
         ]
-         
     }
 ]
+    
     

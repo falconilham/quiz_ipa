@@ -25,7 +25,7 @@ export default class Materi extends Component{
                     <Text style={{color: "black"}}>{this.state.materi}</Text>
                     {this.state.other.map((item, i ) => {
                         return(
-                            <View key={i}>
+                            <View style={{marginVertical: 10}} key={i}>
                                 <Text style={{color: "black"}}>{i + 1}. {item.list_judul}</Text>
                                 <Text style={{color: "black"}}>{item.isi}</Text>
                                 {item.isi_list.map((item, i) => {
