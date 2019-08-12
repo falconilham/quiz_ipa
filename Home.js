@@ -230,7 +230,7 @@ export default class Home extends Component{
           <ImageBackground source={require('./image/bg.png')} style={{flex: 1,justifyContent: "center", alignItems: "center"}}>
             <Text style={styles.color}>Halo {this.state.name}</Text>
             <Text style={{marginVertical: 20, color: "black"}}>Total nilai anda {this.state.nilai}</Text>
-            <Button onPress={() => this.setState({condition: 2})} title="Back" />
+            <Button onPress={() => this.setState({condition: 2, soal: Soal.slice(), total_soal_dikerjakan: 0, current: Math.floor(Math.random()* Soal.length)})} title="Back" />
           </ImageBackground>
         )
       }else{

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { createStackNavigator, createAppContainer } from 'react-navigation';
+import { createStackNavigator, createAppContainer, createSwitchNavigator } from 'react-navigation';
 import Home from "./Home";
+import Loading from "./Loading";
 import Materi from "./Materi";
 
 const Project= createStackNavigator({
@@ -11,4 +12,13 @@ const Project= createStackNavigator({
    screen: Materi
   }
 });
-export default createAppContainer(Project);
+
+export default createAppContainer(createSwitchNavigator(
+  {
+    Loading : Loading,
+    Project : Project
+  },
+  {
+    initialRouteName: 'Loading'
+  }
+))
