@@ -4,21 +4,14 @@ import Home from "./Home";
 import Loading from "./Loading";
 import Materi from "./Materi";
 
-const Project= createStackNavigator({
-  Home: {
-   screen: Home
-  },
-  Materi: {
-   screen: Materi
-  }
-});
+const AppStack = createStackNavigator({ Home: Home, Materi: Materi});
 
 export default createAppContainer(createSwitchNavigator(
   {
-    Project : Project,
-    Loading : Loading,
+    AuthLoading: Loading,
+    App: AppStack,
   },
   {
-    initialRouteName: 'Loading'
+    initialRouteName: 'AuthLoading',
   }
-))
+));

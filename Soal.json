@@ -6,7 +6,7 @@
     },
     {
         "soal":"Pencemaran air disebabkan oleh...",
-        "jawaban_benar":"masuknya polutan zat cair ke dalam tanah",
+        "jawaban_benar":"masuknya polutan zat cair dain padat ke dalam ekosistem air",
         "jawaban":["gas-gas kendaraan bermotor","masuknya polutan zat cair ke dalam tanah","masuknya polutan zat cair dain padat ke dalam ekosistem air","rusaknya ekosistem air karena banyaknya ikan"]
     },
     {
@@ -169,8 +169,8 @@
         "jawaban":["Pencemaran lingkungan pasti terjadi oleh kegiatan manusia","Pencemaran meningkatkan daya lenting","Pencemaran hanya berdampak di sekitar lokasi Iimbah","Pencemaran hanya berdampak sesaat"]
     },{
         "soal":"Berikut fungsi ozon di lapisan stratosfer adalah....",
-        "jawaban_benar":"pelindung bumi dan sinar ultraviolet",
-        "jawaban":[" pelindung bumi dan panas matahari"," pelindung bumi dan sinar ultraviolet","pelindung bumi dan pengaruh gerhana matahari","pelindung bumi dan pengaruh bintang"]
+        "jawaban_benar":"pelindung bumi dari sinar ultraviolet",
+        "jawaban":["pelindung bumi dari panas matahari","pelindung bumi dari sinar ultraviolet","pelindung bumi dan pengaruh gerhana matahari","pelindung bumi dan pengaruh bintang"]
     },{
         "soal":" Air yang tercemar bisa diolah dengan cara berikut ini, kecuali....",
         "jawaban_benar":"pewarnaan",
@@ -208,13 +208,13 @@
     },
     {
         "soal":"Peristiwa masuknya zat, energi atau komponen lain ke dalam lingkungan udara dinamakan ....",
-        "jawaban_benar":"polutan",
+        "jawaban_benar":"Pencemaran udara",
         "jawaban":["Pencemaran udara","Pencemaran suara","Pencemaran air","Pencemaran tanah"]
     },
     {
         "soal":"Salah satu upaya pengendalian hama yang tidak menimbulkan pencemaran lingkungan adalah....",
-        "jawaban_benar":"polutan",
-        "jawaban":["Penyemprotan dengan insektisida","Pengendalian dengan herbisida"," Pengendalian secara biologis","Penyemprotan menggunakan pestisida"]
+        "jawaban_benar":"Pengendalian secara biologis",
+        "jawaban":["Penyemprotan dengan insektisida","Pengendalian dengan herbisida","Pengendalian secara biologis","Penyemprotan menggunakan pestisida"]
     },
     {
         "soal":"Pencemaran yang diakibatkan oleh bakteri termasuk dalam pencemaran....",

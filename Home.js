@@ -15,10 +15,9 @@ export default class Home extends Component{
       materi: Materi.slice(),
       soal: "",
       current: "",
-      nomor_soal: 0,
+      nomor_soal: 1,
       condition : 1,
       nilai: 0,
-      total_soal_dikerjakan: 1,
       image:[
         require('./image/air.jpg'),
         require('./image/udara.jpg'),
@@ -49,8 +48,21 @@ export default class Home extends Component{
     }
   }
 
+  reset = () => {
+    this.setState({
+      jawaban: "",
+      materi: Materi.slice(),
+      current: "",
+      nomor_soal: 1,
+      condition : 2,
+      nilai: 0,
+      soal: Soal.slice(),
+      current: Math.floor(Math.random()* Soal.length)
+    })
+  }
+
   cekNilai = (e, i,item) => {
-    if(item === this.state.soal[this.state.current].jawaban_benar){
+    if(item.toLowerCase() === this.state.soal[this.state.current].jawaban_benar.toLowerCase()){
       this.setState({
         nilai: this.state.nilai + 1 * 10 / 2,
         nomor_soal : this.state.nomor_soal + 1,
@@ -64,10 +76,9 @@ export default class Home extends Component{
     this.state.soal.splice(this.state.current, 1)
     this.setState({
       current: Math.floor(Math.random() * this.state.soal.length),
-      total_soal_dikerjakan: this.state.total_soal_dikerjakan + 1
     })
     //alert(this.state.current)
-    if(this.state.total_soal_dikerjakan === 20){
+    if(this.state.nomor_soal === 20){
       this.setState({
         condition : 4
       })
@@ -230,7 +241,7 @@ export default class Home extends Component{
           <ImageBackground source={require('./image/bg.png')} style={{flex: 1,justifyContent: "center", alignItems: "center"}}>
             <Text style={styles.color}>Halo {this.state.name}</Text>
             <Text style={{marginVertical: 20, color: "black"}}>Total nilai anda {this.state.nilai}</Text>
-            <Button onPress={() => this.setState({nilai : 0, condition: 2, soal: Soal.slice(), total_soal_dikerjakan: 0, current: Math.floor(Math.random()* Soal.length)})} title="Back" />
+            <Button onPress={() => this.reset()} title="Back" />
           </ImageBackground>
         )
       }else{
@@ -241,9 +252,9 @@ export default class Home extends Component{
               </View>
               {this.state.soal[this.state.current].jawaban.map((item, i) => {
                 return(
-                  <View style={{width: "80%", marginVertical: 10}} key={i}>
-                    <TouchableOpacity  style={{backgroundColor: "white", height: 35, justifyContent: "center"}} onPress={() => this.cekNilai(this, i, item)}>
-                      <Text style={{textAlign: "center", color: "black"}}>{item}</Text>
+                  <View style={{width: "80%", marginVertical: 10}} key={i}> 
+                  <TouchableOpacity  style={{backgroundColor: "white", height: 35, justifyContent: "center"}} onPress={() => this.cekNilai(this, i, item)}>
+                    <Text style={{textAlign: "center", color: "black"}}>{item}</Text>
                     </TouchableOpacity>
                   </View>
                 )
