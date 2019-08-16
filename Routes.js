@@ -15,8 +15,8 @@ const Project= createStackNavigator({
 
 export default createAppContainer(createSwitchNavigator(
   {
+    Project : Project,
     Loading : Loading,
-    Project : Project
   },
   {
     initialRouteName: 'Loading'
